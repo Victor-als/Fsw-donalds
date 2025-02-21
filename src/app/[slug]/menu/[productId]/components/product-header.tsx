@@ -13,7 +13,7 @@ const ProductHeader = ({ product }: ProductsHeaderProps) => {
     const router= useRouter();
     const handleBackClick = () => router.back();
   return ( 
-   <>
+   <div className="relative min-h-[300px] w-full">
       <Button
         variant="secondary"
         size="icon"
@@ -35,7 +35,7 @@ const ProductHeader = ({ product }: ProductsHeaderProps) => {
       >
         <ScrollTextIcon />
       </Button>
-   </>
+   </div>
    );
 }
  
