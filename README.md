@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fsw Donalds
 
-## Getting Started
+Projeto de auto atendimento de fast foods, o exemplo utilizado foi do Mc Donalds
 
-First, run the development server:
+Para rodar ele localmente precisa de algumas coisas.
+1- criar um Banco de dados eu utilizei o Neon db. Não esqueça de colocar a chave de acesso do seu banco no .env.
+2- Para criar as tabelas utilize o comadno npx prisma migrate dev --name init, depois npx prisma generate para criar o prisma Client.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Imagens da tela.
+![Image](https://github.com/user-attachments/assets/06657d48-3006-4354-bf0f-063225a84ac2)
+![Image](https://github.com/user-attachments/assets/b38b886a-275d-4c4d-9f67-f2175099a53c)
+![Image](https://github.com/user-attachments/assets/d925bf12-b5a2-4c2b-8834-6b5aeccbda62)
+![Image](https://github.com/user-attachments/assets/47a82633-07d6-4acf-b155-c3092e1945e7)
+![Image](https://github.com/user-attachments/assets/3e2cddc4-a5e3-4bc9-b0e3-89c1fa00a450)
+
+
+## Tenologias usadas no projeto
+
+- Next.js (React.js)
+- Tailwind
+- Prisma
+- postgreSql
+- Zod
+
+## Acesse o aplicativo publicado pelo link: 
+```sh
+https://fsw-donalds-nine.vercel.app/fsw-donalds
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Para rodar o projeto localmente
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone o repositório:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+$ git clone https://github.com/Victor-als/Fsw-donalds
+```
 
-## Learn More
+3. Instale as dependências:
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Rode localmente:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```sh
+npm run dev
+```
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+ 
