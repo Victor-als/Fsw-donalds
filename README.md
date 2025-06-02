@@ -7,6 +7,7 @@ Para rodar ele localmente precisa de algumas coisas.
 2- Para criar as tabelas utilize o comadno npx prisma migrate dev --name init, depois npx prisma generate para criar o prisma Client.
 
 # Imagens da tela.
+![Image](https://github.com/user-attachments/assets/f6166c6a-7b46-4233-afef-d51d74a4c4a3)
 ![Image](https://github.com/user-attachments/assets/06657d48-3006-4354-bf0f-063225a84ac2)
 ![Image](https://github.com/user-attachments/assets/b38b886a-275d-4c4d-9f67-f2175099a53c)
 ![Image](https://github.com/user-attachments/assets/d925bf12-b5a2-4c2b-8834-6b5aeccbda62)
